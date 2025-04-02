@@ -10,7 +10,7 @@ const Home = () => {
         .then(res => res.json())
         .then(res => setData(res))
     }, [])
-
+ console.log(data)
 
     return(
 
@@ -32,7 +32,7 @@ const Home = () => {
                 </p>
               </div>
               <div class="p-6 pt-0">
-                <Link to={`${item.id}`} data-ripple-light="true" type="button" class="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+                <Link to={`products/${item.id}`} data-ripple-light="true" type="button" class="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
                   Read More
                 </Link>
               </div>
@@ -40,7 +40,7 @@ const Home = () => {
             ))
           }
            
-           
+           {/* bnhu nhbuihb */}
         </div>
   
       </div>

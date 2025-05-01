@@ -5,6 +5,8 @@ import Home from './components/Home'
 import Navbar from './components/Navbar'
 import About from './components/About'
 import Products from './components/Proudcts'
+// import Products from './components/Products';`
+
 import Login from './components/Login'
 import {  Route, Routes } from 'react-router-dom'
 

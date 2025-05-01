@@ -28,9 +28,9 @@ const Login = () => {
                 <h2 id="form-title" class="text-center text-3xl font-bold mb-10 text-gray-800">Login</h2>
                 <div class="space-y-5">
 
-                  <input onChange={(e) => setName(e.target.value)} class="w-full h-12 border border-gray-800 px-3 rounded-lg" placeholder="Email"  name="" type="text" />
+                  <input onChange={(e) => setName(e.target.value)} class="w-full h-12 border border-gray-800 px-3 rounded-lg" placeholder="Email(setname = admin)"  name="" type="text" />
 
-                  <input onChange={(e) => setPassword(e.target.value)} class="w-full h-12 border border-gray-800 px-3 rounded-lg" placeholder="Password"  name="" type="password" />
+                  <input onChange={(e) => setPassword(e.target.value)} class="w-full h-12 border border-gray-800 px-3 rounded-lg" placeholder="Password(setpass = 999)"  name="" type="password" />
 
                   <button onClick={handleLogin} class="w-full h-12 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Sign in</button>
                  
